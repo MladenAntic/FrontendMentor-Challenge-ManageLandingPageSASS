@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Familjen+Grotesk:wght@400;600;700&display=swap");
+
+@import "./variables";
+@import "./reset";
+@import "./utilities";
+@import "./header";
+@import "./hero";
+@import "./features";
+@import "./testimonials";
+@import "./simplify";
+@import "./footer";
+
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
+}

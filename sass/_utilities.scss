@@ -1,0 +1,22 @@
+.wrapper {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.main-cta-btn {
+  display: inline-block;
+  background: $bright-red;
+  color: $very-light-gray;
+  padding: 0.9375rem 1.875rem;
+  border-radius: 3.125rem;
+
+  -webkit-box-shadow: 0rem 0rem 0.3125rem 0rem hsl(12, 88%, 59%);
+  -moz-box-shadow: 0rem 0rem 0.3125rem 0rem hsl(12, 88%, 59%);
+  box-shadow: 0rem 0rem 0.3125rem 0rem hsl(12, 88%, 59%);
+
+  &:hover {
+    background: hsl(12, 88%, 79%);
+  }
+}
